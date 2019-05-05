@@ -1,0 +1,13 @@
+/*打包只编译用到的 css-tree shaking*/
+.test {
+    --fontColor: yellowgreen;
+    color: var(--fontColor);
+}
+
+.hero:matches(main, main) {
+
+}
+
+.good {
+    background: red;
+}
